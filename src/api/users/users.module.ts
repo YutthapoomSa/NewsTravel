@@ -7,7 +7,7 @@ import { UsersService } from './services/users.service';
 import { UsersController } from './users.controller';
 
 @Module({
-    imports: [SharedModule, ],
+    imports: [SharedModule],
     controllers: [UsersController],
     providers: [UsersService, JwtStrategy, ApiUsersService, CacheUsersService],
     exports: [UsersService],

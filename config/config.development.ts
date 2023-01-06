@@ -8,7 +8,7 @@ export const config = {
         port: 3306,
         username: 'root',
         password: '',
-        database: 'mysql1',
+        database: 'db_newsTravel',
         // logging: false,
         // logging: (msg: any) => logger.log(msg),
         // dialectOptions: {

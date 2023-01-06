@@ -57,7 +57,7 @@ export class UsersService implements OnApplicationBootstrap {
     onApplicationBootstrap() {
         this.initSuperAdmin();
     }
-
+// --test--
     // [function]─────────────────────────────────────────────────────────────────
 
     async findOne(id: number): Promise<UserDB> {

@@ -12,3 +12,13 @@ export class CreateNewsTravelReqDto {
     @IsNotEmpty()
     img: string;
 }
+
+
+export class CreateNewsTravelResDTOData {
+    @ApiProperty()
+    id: number
+    @ApiProperty()
+    title: string
+    @ApiProperty()
+    img: string
+}

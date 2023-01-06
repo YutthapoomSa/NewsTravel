@@ -22,3 +22,5 @@ export class CreateNewsTravelResDTOData {
     @ApiProperty()
     img: string
 }
+
+export class CreateNewsTravelResDTO{}
